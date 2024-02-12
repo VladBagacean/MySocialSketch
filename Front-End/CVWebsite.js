@@ -5,7 +5,7 @@ const mysqlDiv = document.getElementById("mysql");
 
 frontendDiv.addEventListener("click", () => {
     // Navigate to your Github page for frontend
-    window.open("https://github.com/VladBagacean?tab=repositories", "_blank");
+    window.open("https://github.com/VladBagacean/CVWebsite/tree/main/Front-End", "_blank");
 });
 
 backendDiv.addEventListener("click", () => {
