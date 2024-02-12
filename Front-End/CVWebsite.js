@@ -10,7 +10,7 @@ frontendDiv.addEventListener("click", () => {
 
 backendDiv.addEventListener("click", () => {
     // Navigate to your Github page for backend
-    window.open("https://github.com/VladBagacean?tab=repositories", "_blank");
+    window.open("https://github.com/VladBagacean/CVWebsite/tree/main/Back-End", "_blank");
 });
 
 mysqlDiv.addEventListener("click", () => {
