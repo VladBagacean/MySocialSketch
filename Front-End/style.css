@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(0, 58, 58);
+  font-family: sans-serif;
+  margin: 0 50px;
+}
+
+h1,
+h2,
+p {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Style for links */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Apply styling to the div elements within the container */
+.container div {
+  color: aliceblue;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  /* Optional: Add some spacing between divs */
+  position: relative;
+  /* Move this line inside the .container div selector */
+}
+
+/* Add an underline effect on hover for the clickable divs */
+#home:hover,
+#accounts:hover,
+#github:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* Add styling for the post dialog */
+#post-dialog {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 58, 58);
+  padding: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+#input {
+  margin-bottom: 10px;
+  resize: none;
+}
+#post-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 58, 58);
+  padding: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: default;
+  text-align: center;
+}
+#posts {
+  text-decoration: none;
+  width: 200px;
+}
+
+#posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  gap: 15px;
+}
+
+i {
+  cursor: pointer;
+}
+
+#msg {
+  color: red;
+}
+
+/* Add styling for the search dialog */
+#search-input {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 58, 58);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
